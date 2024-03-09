@@ -1,17 +1,17 @@
-const express = require("express");
-const app = express();
-const cors = require("cors");
-const bodyParser = require("body-parser");
-const PORT = 3000;
-const http = require("http");
-const Wallet = require("ethereumjs-wallet");
-const BSCSCAN_API_KEY = '3WK22B41CG3Y67YFQ6RKJIH778Z9P2Y36J';
-const Web3 = require("web3");
-const server = http.createServer(app);
-const {ethers,JsonRpcProvider , formatEther, parseUnits, isAddress, ContractTransactionResponse, InfuraProvider} = require("ethers");
-const { EthHdWallet, generateMnemonic } = require("eth-hd-wallet");
-const web3 = new Web3('https://bsc-dataseed.binance.org/');
-const axios = require('axios');
+// const express = require("express");
+// const app = express();
+// const cors = require("cors");
+// const bodyParser = require("body-parser");
+// const PORT = 3000;
+// const http = require("http");
+// const Wallet = require("ethereumjs-wallet");
+// const BSCSCAN_API_KEY = '3WK22B41CG3Y67YFQ6RKJIH778Z9P2Y36J';
+// const Web3 = require("web3");
+// const server = http.createServer(app);
+// const {ethers,JsonRpcProvider , formatEther, parseUnits, isAddress, ContractTransactionResponse, InfuraProvider} = require("ethers");
+// const { EthHdWallet, generateMnemonic } = require("eth-hd-wallet");
+// const web3 = new Web3('https://bsc-dataseed.binance.org/');
+// const axios = require('axios');
 
 // https://api-node-1-postapi.vercel.app
 
